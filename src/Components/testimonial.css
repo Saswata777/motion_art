@@ -1,0 +1,28 @@
+.rating{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    
+}
+
+.rating div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1.5vmax;
+}
+
+.rating div p{
+    margin-top: 15px;
+
+}
+
+@media (max-width:480px) {
+    .test_{
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        text-align: center;
+        margin-left: 2vmax;
+    }
+}

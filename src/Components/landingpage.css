@@ -1,0 +1,103 @@
+.container{
+    width: 100%;
+    display: flex;
+}
+.container .left{
+    width: 28%;
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 110px;
+    /* align-items: center; */
+}
+
+.left .contentbox{
+    width: 45%;
+    margin-left: 50px;
+}
+
+.left .contentbox .item1,.left .contentbox .item2{
+    background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:600;
+}
+
+ .left .contentbox div{
+    font-size: 1.2vmax;
+    color: #EEE5FF;
+}
+
+
+.container .right{
+    display: flex;
+    flex-direction: column;
+    width: 72%;
+    margin-top: 110px;
+}
+
+
+.right .contentbox{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.right  .headline{
+    width: 65%;
+    font-weight: 500;
+    /* margin-top: 50px; */
+    font-size: 4.3vmax;
+    color: #EEE5FF;
+}
+.headline p{
+    background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.right  .sub-headline{
+    width: 65%;
+    margin-top: 40px;
+    color: #B4AEC4;
+    font-size: 1.2vmax;
+    /* font-size: 60px; */
+}
+
+@media (max-width:760px) {
+    .container{
+        flex-direction: column;
+    }  
+    
+    .container .left, .container .right{
+        /* margin-left: 10vmax; */
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .left .contentbox div{
+            font-size: 2.8vmax;
+    }
+    .container .right{
+        margin-top: 10px;
+    }
+    
+}
+
+@media (max-width:480px){
+    .container .left .contentbox div, .container .right div{
+        text-align: center;
+    }
+    .container .left .contentbox{
+        margin-left: 0;
+    }
+.container .right .headline{
+    font-size: 5.3vmax;
+    width: 95%;
+}
+
+.container .right .sub-headline{
+    width: 90%;
+    font-size: 2vmax;
+}
+}

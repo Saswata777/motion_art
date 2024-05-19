@@ -1,0 +1,107 @@
+.background{
+    width: 100vw;
+    margin-bottom: 60px;
+}
+
+.background .left{
+    width: 60%;
+}
+.background .right{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+/* .background .right .wand{
+
+} */
+
+/* .background .right .wand{
+    margin-left: 15vmax;
+} */
+
+.background .left div{
+    margin-left: 4vmax;
+    line-height: 150%;
+    margin-top: 25px;
+}
+
+.background .left .button p{
+    padding: 10px;
+}
+
+@media(max-width: 760px){
+     .arrow{
+        transform: scale(2.2);
+    }
+    .background{
+        flex-direction: column;
+    }
+    .background .left{
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .background .left div{
+        margin-left: 0;
+    }
+    
+
+    .background .right .wand{
+        margin-top: 80px;
+        margin-left: 30vmax;
+        transform: scale(1.8);
+    }
+    .background .left .fhead{
+        font-size: 3vmax;
+        text-align: center;
+    }
+    .background .left .fhead,.background .left .fsubhead,.background .left .button{
+        margin-left: 5vmax;
+        margin-right: 5vmax;
+    }
+    .background .left .fsubhead{
+        font-size: 2vmax;
+        text-align: center;
+    }
+    .background .left .button{
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+.button{
+    background: rgb(94,17,255);
+    background: linear-gradient(90deg, rgba(94,17,255,1) 0%, rgba(154,56,164,1) 65%, rgba(231,106,47,1) 100%);
+    padding: 10px 20px;
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 20px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-align: center; /* Center text */
+    width: 23vmax;
+    justify-content: space-around;
+}
+
+.button .arrow{
+    font-weight: 400;
+}
+
+.button p {
+    font-size: 1rem; /* Adjust the font size */
+}
+
+.fhead{
+    font-size:2.9vmax;
+}
+
+.fsubhead{
+    font-size:1.15vmax;
+}
+

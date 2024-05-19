@@ -1,0 +1,31 @@
+.footer{
+    background: rgb(247,116,21);
+    background: linear-gradient(90deg, rgba(247,116,21,1) 0%, rgba(167,64,145,1) 50%, rgba(94,16,255,1) 100%);
+}
+
+.copywrite, .doc{
+    color: rgb(245, 236, 220);
+    font-size: 1vmax;
+}
+.doc{
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.doc div{
+    margin-right: 2vmax;
+}
+@media (max-width:1023px){
+    .footer{
+        flex-direction: column-reverse;
+    }
+    .copywrite, .doc{
+        width: 100%;
+        justify-content: center;
+        padding: 10px;
+        font-size: 1.5vmax;
+    }
+    .copywrite{
+        text-align: center;
+    }
+}

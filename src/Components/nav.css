@@ -1,0 +1,38 @@
+.nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav div{
+    margin-top: 20px;
+}
+
+
+.nav .logo{
+    margin-left: 50px;
+}
+
+.nav .purchase_button{
+    margin-right: 2vmax;
+    font-size: 1.2vmax;
+    padding-left:  3vw;
+    padding-right:  3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+}
+.purchase_button:hover{
+    background: transparent;
+    color: white;
+    transition: 0.5s;
+    border: 1px solid white;
+}
+
+@media (max-width: 1023px)  {
+    .nav .purchase_button{
+        visibility: hidden;
+    }
+}
