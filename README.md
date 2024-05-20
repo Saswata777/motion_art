@@ -1,4 +1,4 @@
-# Motion Art - ReactJS & TailwindCSS WebGL Animation Website
+# Motion Art Clone Website
 
 This project is a pixel-perfect clone of the Motion Art Elementor WordPress plugin preview website. Built with ReactJS and TailwindCSS, it utilizes enhanced WebGL animations for a dynamic and responsive user experience.
 
