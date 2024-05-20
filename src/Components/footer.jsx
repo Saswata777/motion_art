@@ -3,7 +3,7 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <div className='footer w-full flex'>
+    <div className='footer w-[100vw] flex' style={{zIndex:10}}>
             <div className='copywrite w-1/2 bg-transparent p-5'>
             © 2023 Copywrite. All rights reserved by QodeMatrix
             </div>

@@ -8,11 +8,11 @@ import img12 from '../img/motionarteffect-img9.png'
 const FooterCard = () => {
   return (
     <div className='footercard'>
-        <div className='footercard-1'>
+        <div className='footercard-1' style={{zIndex:10}}>
             <div className='footercard_1_img'>
                 <img src={img12} className='light' alt="" />
             </div>
-            <div className='footercard_1_head'>
+            <div className='footercard_1_head mt-8'>
                 Light Weight
             </div>
             <div className='footercard_1_subhead'>
@@ -20,11 +20,11 @@ const FooterCard = () => {
             </div>
         </div>
 
-        <div className='footercard-2'>
-                <div className='footercard_2_img'>
+        <div className='footercard-2' style={{zIndex:10}}>
+                <div className='footercard_2_img' >
                   <img src={img10} className='thumb' alt="" />
                 </div>
-                <div className='footercard_2_head'>
+                <div className='footercard_2_head mt-8'>
                     100% Responsive
                 </div>
                 <div className='footercard_2_subhead'>
@@ -32,7 +32,7 @@ const FooterCard = () => {
                 </div>
         </div>
 
-        <div className='footercard-3'>
+        <div className='footercard-3'style={{zIndex:10}}>
                 <div className='footercard_3_img'>
                   <img src={img11} className='moon' alt="" />
                 </div>

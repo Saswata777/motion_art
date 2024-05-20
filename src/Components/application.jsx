@@ -8,38 +8,38 @@ const Application = () => {
   return (
     <div className=' w-full mt-10 mb-10'>
         <div className='flex justify-center'>
-            <div className='applicationHead text-[#EEE5FF]'>Apply On Any Section Or Enable For Whole Page</div>
+            <div className='applicationHead text-[#EEE5FF]' style={{zIndex:10}}>Apply On Any Section Or Enable For Whole Page</div>
         </div>
-        <div className='app_sec2 flex'>
-            <div className='app_sec2_left w-1/2'>
-                <div className='wrapper-1'>
+        <div className='app_sec2 flex mt-16 mb-24'>
+            <div className='app_sec2_left w-1/2'  style={{zIndex:10}}>
+                <div className='wrapper-1' >
                     <p className='wrapperhead'>Apply On Section</p>
-                    <p className='wrappersubhead'>Apply on section is a game-changer, offering an unparalleled way to manage applications directly from your website. </p>
-                    <img src={img8} alt="" />
+                    <p className='wrappersubhead pt-4'>Apply on section is a game-changer, offering an unparalleled way to manage applications directly from your website. </p>
+                    <img src={img8} alt="" className='mt-5 mb-8'/>
                 </div>
             </div>
-            <div className='app_sec2_right w-1/2'>
+            <div className='app_sec2_right w-1/2' style={{zIndex:10}}>
                 <div className='wrapper-2'>
                     <p className='wrapperhead'>Apply On Page</p>
-                    <p className='wrappersubhead'>Take your website to new heights with Motion Art for Elementor. Embrace the power of motion and animation.</p>
-                    <img src={img7} alt="" />
+                    <p className='wrappersubhead pt-4'>Take your website to new heights with Motion Art for Elementor. Embrace the power of motion and animation.</p>
+                    <img src={img7} alt="" className='mt-5 mb-8' />
                 </div>
             </div>
         </div>
         <div className='app_sec3'>
             {/* browser support */}
-            <div className='wrapper-3'>
+            <div className='wrapper-3 ' style={{zIndex:10}}>
                 <div className='box'>
                     <div className='wrapper3_head'>Supported by All Popular Browsers</div>
                     <div className="wrapper3_subhead">Rest assured, Motion Art is designed to be compatible with all major web browsers.</div>
                     <div className="browser_box" style={{background:"transparent"}}>
-                        <img src={img9} alt="" className='browser' />
+                        <img src={img9} alt="" className='browser mt-12' />
                     </div>
                 </div>
             </div>
         </div>
-        <div className='app_sec4'>
-            <div className='box'>
+        <div className='app_sec4' >
+            <div className='box mt-8 mb-8' style={{zIndex:10}}>
                 <div className='head'>An All-Round Plugin With Powerful Features</div>
                 <div className='subhead'>Whether you're a seasoned web designer or just starting out, Motion Art for Elementor seamlessly integrates with the Elementor platform, providing you with a seamless and intuitive experience.</div>
             </div>

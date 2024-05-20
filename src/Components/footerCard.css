@@ -37,7 +37,7 @@
 .footercard_1_subhead, .footercard_2_subhead, .footercard_3_subhead{
     background: transparent;
     color: #B6AEC7;
-
+    line-height: 2;
     font-size: 1.1vmax;
     /* font-weight: 500; */
     padding-left: 2vmax;

@@ -9,10 +9,10 @@ import img5 from '../img/motionarteffect-img4.png'  // star
 
 const Testimonial = () => {
   return (
-    <div className='mb-20 '>
+    <div className='mb-20 ' style={{zIndex:10}}>
         <div className='test_ flex justify-center text-[#EEE5FF] mt-20 ms-[10vmax] me-[10vmax]'>Trusted by thousands of users around the world</div>
         <div className='flex flex-wrap justify-around'>
-            <div className='flex mt-20'>
+            <div className='flex mt-20' style={{zIndex:10}}>
                 <div>
                 <img src={img2} alt="" />
                 </div>
@@ -23,7 +23,7 @@ const Testimonial = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex mt-20'>
+            <div className='flex mt-20' style={{zIndex:10}}>
                 <div>
                  <img src={img3} alt="" />
                 </div>
@@ -34,7 +34,7 @@ const Testimonial = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex mt-20'>
+            <div className='flex mt-20' style={{zIndex:10}}>
                 <div>
                     <img src={img4} alt="" />
                 </div>
