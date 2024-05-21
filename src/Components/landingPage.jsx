@@ -16,7 +16,7 @@ const LandingPage = () => {
 
         <div className='right'>
             
-                <div className='headline' style={{zIndex:10}}>
+                <div className='headline'  style={{zIndex:10}}>
                     Attract Your Visitors Attention With Colorful
                     <p>Motion Art Effcet</p>
                 </div>
